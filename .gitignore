@@ -1,0 +1,34 @@
+### Java / Maven ###
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# Exceptions: Allow the Maven Wrapper files so the project is portable
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### VS Code ###
+.vscode/
+.metadata/
+bin/
+*.code-workspace
+.history/
+
+### IntelliJ IDEA (Just in case you or a collaborator switch) ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+### OS Specific ###
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+### Help & Extras ###
+HELP.md
